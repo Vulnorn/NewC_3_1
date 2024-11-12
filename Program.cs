@@ -36,7 +36,6 @@ namespace NewC_3_1
             for (int i = 0; i < numbers.GetLength(0); i++)
                 productNumbersColumn *= numbers[i, searchColumn - 1];
 
-
             Console.WriteLine($"Сумма чисет в {searchString} строке = {sumNumbersString}; Произведение чисев в {searchColumn} столбце = {productNumbersColumn}.");
             Console.ReadKey();
         }
